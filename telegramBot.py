@@ -21,7 +21,7 @@ def telegramBot():
 #  Data provider(and refresher)		
 	@bot.message_handler(func=lambda m:True)
 	def todayData(message):
-		if (message.text == "refresh" or message.text == "Refresh"):
+		if (message.text == "update" or message.text == "Update"):
 			getData()
 			with open("src.txt","r") as f:
 				if f.read() == "err:True":
