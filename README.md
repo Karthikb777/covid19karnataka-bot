@@ -2,7 +2,7 @@
 A telegram bot to provide covid 19 stats for Karnataka state.
 
 
-Previously, I had made a website to get covid19 stats but that was dependent on a third party API and the API broke.
+~~Previously, I had made a website to get covid19 stats but that was dependent on a third party API and the API broke.~~ Fixed the website, this is another implementation of the same project idea.
 So, I have built this telegram bot that provides the data.
 
 The source of the data is the official Twitter handle of Karnataka health department.
